@@ -28,6 +28,8 @@ public class GroceryBillCalculator {
 
         // Displaying output formatted as whole numbers to match the example
         System.out.println("\nTotal = " + (int)total);
+        System.out.println("\nTotal = " + total);
+
         System.out.println("Discount = " + (int)discountAmount);
         System.out.println("Final Amount = " + (int)finalAmount);
     }

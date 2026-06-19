@@ -15,7 +15,7 @@ public class DataUsageCalculator {
         double remainingData = DATA_LIMIT - usedData;
 
         // Displaying output formatted as whole numbers to match the example
-        System.out.println("\nUsed: " + (int)usedData + " GB");
-        System.out.println("Remaining: " + (int)remainingData + " GB");
+        System.out.println("\nUsed: " + (double)usedData + " GB");
+        System.out.println("Remaining: " + (double)remainingData + " GB");
     }
 }
